@@ -1,0 +1,205 @@
+body{
+    background:url(../imgs/Math\ Teacher\ Vector.svg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100vh;
+    overflow-x:hidden;
+}
+
+/*===================Section One===================*/
+.sesion1{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    position:relative;
+    width:100%;
+   
+    
+}
+.content1{
+    margin-bottom:50px;
+    display:flex;padding:10px;
+    position:absolute;
+    margin-top:-400px;
+}
+#result{
+    width:80%;
+    height:300px;
+    background:rgba(255,255,255,.3);
+    backdrop-filter:blur(6px);
+    position:absolute;
+    margin-top:25px;
+    
+
+}
+#resultado{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:uppercase;
+    font-weight: 800;
+    font-size:80px;
+    color:#eee;
+    text-shadow: 0 0 5px #2db2ff,
+    0 0 15px #2db2ff,
+    0 0 30px #2db2ff,
+    0 0 60px #2db2ff;
+    padding-top:40px;
+}
+
+
+/*=======================alert===================*/
+.alert{
+    position:absolute;
+    width:100%;
+    height:100vh;
+    background:rgba(0,0,0,.5);
+    z-index:100;
+    top:0px;
+    padding-bottom:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+.content-alert{
+    background:#eee;
+    width:90%;
+    padding:20px;
+    border-radius:10px;
+    text-transform:uppercase;
+    font-weight:500;
+    color:#f60a0a;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    
+}
+
+
+
+
+@media screen and (min-width:1026px){
+    .content1{
+        width:700px;
+    }
+    #result{
+        width:700px;
+        height: 350px;
+    }
+    #resultado{
+        font-size:120px;
+    }
+    .content-alert{
+        width:500px;
+    }
+    body{
+        background-position: center;
+    }
+}
+
+@media screen and (min-width:280px){
+
+    .title{
+        margin-top:-10px;
+    }
+    #t, #u, #r, #n,  #U, #m, #b, #e, #R, #Nn, #T, #o, #E, #TT, #TTT, #EE, #RR{
+        width:15px;
+    }
+    #N{
+        margin-left:20px;
+        width:15px;
+    }
+    #i{
+        margin-left:20px;
+        width:15px;
+    }
+    #l{
+        margin-left:20px;
+        width:15px;
+    }
+   
+}
+
+
+
+
+
+@media screen and (min-width:320px){
+
+    .title{
+        margin-top:-20px;
+    }
+    #t, #u, #r, #n,  #U, #m, #b, #e, #R, #Nn, #T, #o, #E, #TT, #TTT, #EE, #RR{
+        width:15px;
+    }
+    #N{
+        margin-left:20px;
+        width:15px;
+    }
+    #i{
+        margin-left:20px;
+        width:15px;
+    }
+    #l{
+        margin-left:20px;
+        width:15px;
+    }
+    .content1{
+        margin-top:-320px;
+    }
+   
+}
+
+
+
+@media screen and (min-width:1026px){
+
+    .title{
+        margin-top:-20px;
+    }
+    #t, #u, #r, #n,  #U, #m, #b, #e, #R, #Nn, #T, #o, #E, #TT, #TTT, #EE, #RR{
+        width:55px;
+    }
+    #N{
+        margin-left:25px;
+        width:55px;
+    }
+    #i{
+        margin-left:25px;
+        width:55px;
+    }
+    #l{
+        margin-left:35px;
+        width:55px;
+    }
+    .content1{
+        margin-top:-420px;
+    }
+   
+}
+
+
+
+/*===================title===================*/
+.title{
+    position:absolute;
+    top:20px;
+    padding:10px;
+    
+}
+.title img{
+    width:50px;
+    filter:drop-shadow(1px  6px 8px rgba(0,0,0,.6));
+}
+#N{
+    margin-left:30px;
+}
+#i{
+    margin-left:30px;
+}
+#l{
+    margin-left:20px;
+}
