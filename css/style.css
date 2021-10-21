@@ -131,6 +131,7 @@ body{
 
     .title{
         margin-top:-20px;
+        display:none;
     }
     #t, #u, #r, #n,  #U, #m, #b, #e, #R, #Nn, #T, #o, #E, #TT, #TTT, #EE, #RR{
         width:15px;
@@ -149,14 +150,24 @@ body{
     }
     .content1{
         margin-top:-320px;
+        
     }
    
 }
-@media screen and (min-width:375px){
+@media screen and (min-width:375px) and (max-width:380px){
     .content1{
         margin-top:-280px;
     }
+    .title{
+        display:none;
+    }
 }
+@media screen and (min-width:414px){
+    .title{
+        display: block;
+    }
+}
+
 
 
 
